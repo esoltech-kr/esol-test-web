@@ -25,7 +25,7 @@ export default function CtaFooter() {
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="tel:02-1234-5678"
+              href="tel:+82-55-266-6924"
               className="inline-flex h-11 items-center rounded-md border border-background/20 px-8 text-sm font-medium text-background transition-colors hover:bg-background/10"
             >
               {t.ctaPhone}
