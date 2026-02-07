@@ -15,12 +15,32 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
+          (주)이솔테크는 2000년에 설립된 회사로 자본금 3억, 매출액 20억, 사원수 30명 규모의  중소기업입니다.
+          경남 창원시 성산구 중앙동에 위치하고 있으며, IT 아웃소싱, ERP, MES, PLM 시스템 개발 및 운영, 스마트팩토리 사업을 하고 있습니다.
+        </p>
+
+        <div className="mt-6 mb-4 rounded-lg border border-gray-300 overflow-hidden">
+          <table className="w-full text-left text-sm text-muted-foreground">
+            <tbody>
+              <tr className="border-b border-border">
+                <td className="px-4 py-3 font-semibold text-foreground whitespace-nowrap">본사</td>
+                <td className="px-4 py-3">경남 창원시 성산구 중앙대로 85, 리제스타워 1018호</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 font-semibold text-foreground whitespace-nowrap">외부사무실</td>
+                <td className="px-4 py-3">경남 창원시 성산구 안암로 50, SK 테크노파크 메카동 1101호</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
           웹 개발부터 AI까지, (주)이솔테크는 최신 기술로 기업의 디지털
           트랜스포메이션을 지원합니다. 10년 이상의 경험과 200+ 프로젝트 실적을
           보유하고 있습니다.
         </p>
 
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+        <div className="mt-6 flex flex-col gap-4 sm:flex-row">
           <a
             href="#cta"
             className="inline-flex h-11 items-center justify-center gap-2 rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"

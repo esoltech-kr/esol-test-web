@@ -14,7 +14,7 @@ export default function CtaFooter() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:contact@nextcore.dev"
+              href="mailto:ceo@esoltech.co.kr"
               className="inline-flex h-11 items-center gap-2 rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
             >
               무료 상담 신청
@@ -24,7 +24,7 @@ export default function CtaFooter() {
               href="tel:02-1234-5678"
               className="inline-flex h-11 items-center rounded-md border border-background/20 px-8 text-sm font-medium text-background transition-colors hover:bg-background/10"
             >
-              02-1234-5678
+              055-266-6924​
             </a>
           </div>
         </div>
