@@ -8,7 +8,7 @@ export default function CtaFooter() {
 
   return (
     <>
-      <section id="cta" className="bg-foreground py-16 md:py-24">
+      <section id={t.id} className="bg-foreground py-16 md:py-24">
         <div className="container text-center">
           <h2 className="text-3xl font-bold tracking-tight text-background sm:text-4xl">
             {t.title}

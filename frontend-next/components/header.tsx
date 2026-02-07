@@ -9,13 +9,6 @@ export default function Header() {
   const t = useMessages().header;
   const { locale, toggleLocale } = useLocale();
 
-  const navLinks = [
-    { label: t.nav.services, href: "#how-it-works" },
-    { label: t.nav.features, href: "#features" },
-    { label: t.nav.pricing, href: "#pricing" },
-    { label: t.nav.faq, href: "#faq" },
-  ];
-
   return (
     <header className="sticky top-0 z-50 h-16 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-full items-center justify-between">
@@ -24,7 +17,7 @@ export default function Header() {
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
+          {t.nav.map((link) => (
             <a
               key={link.href}
               href={link.href}
@@ -64,7 +57,7 @@ export default function Header() {
       {mobileOpen && (
         <div className="border-b border-border bg-background md:hidden">
           <nav className="container flex flex-col gap-4 py-4">
-            {navLinks.map((link) => (
+            {t.nav.map((link) => (
               <a
                 key={link.href}
                 href={link.href}

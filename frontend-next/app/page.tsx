@@ -6,6 +6,7 @@ import Features from "@/components/features";
 import Pricing from "@/components/pricing";
 import FAQ from "@/components/faq";
 import CtaFooter from "@/components/cta-footer";
+import History from "@/components/history";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <Partners />
+        <History />
         <Features />
         <HowItWorks />
         {/* <Pricing /> */}

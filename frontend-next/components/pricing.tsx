@@ -7,7 +7,7 @@ export default function Pricing() {
   const t = useMessages().pricing;
 
   return (
-    <section id="pricing" className="bg-muted py-16 md:py-24">
+    <section id={t.id} className="bg-muted py-16 md:py-24">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">

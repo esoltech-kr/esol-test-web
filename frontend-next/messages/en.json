@@ -1,16 +1,18 @@
 {
   "header": {
     "logo": "ESOLTECH Co., Ltd.",
-    "nav": {
-      "services": "Services",
-      "features": "Features",
-      "pricing": "Pricing",
-      "faq": "FAQ"
-    },
+    "nav": [
+      { "label": "Company", "href": "#home" },
+      { "label": "History", "href": "#history" },
+      { "label": "Features", "href": "#features" },
+      { "label": "Services", "href": "#how-it-works" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
     "cta": "Get a Quote",
     "menuAriaLabel": "Open menu"
   },
   "hero": {
+    "id": "home",
     "badge": "IT Solution Partner #1",
     "titlePrefix": "Delivering",
     "titleHighlight": "Optimal IT Solutions",
@@ -35,6 +37,7 @@
     }
   },
   "howItWorks": {
+    "id": "how-it-works",
     "title": "How It Works",
     "subtitle": "Start your project in 3 simple steps",
     "steps": [
@@ -56,6 +59,7 @@
     ]
   },
   "features": {
+    "id": "features",
     "title": "Core Capabilities",
     "subtitle": "Delivering the best results with diverse tech stacks and extensive experience",
     "items": [
@@ -92,6 +96,7 @@
     ]
   },
   "pricing": {
+    "id": "pricing",
     "title": "Service Plans",
     "subtitle": "Choose the right plan for your project scale",
     "popularBadge": "Popular",
@@ -141,6 +146,7 @@
     ]
   },
   "faq": {
+    "id": "faq",
     "title": "Frequently Asked Questions",
     "subtitle": "Have questions? Feel free to reach out anytime",
     "items": [
@@ -167,10 +173,11 @@
     ]
   },
   "ctaFooter": {
+    "id": "cta",
     "title": "Start Your Project Today",
     "description": "Get a free consultation for the optimal IT solution. Our expert consultants will guide you with a technology strategy aligned to your business goals.",
     "ctaPrimary": "Request Free Consultation",
-    "ctaPhone": "055-266-6924",
+    "ctaPhone": "(+82)055-266-6924",
     "footerCompany": "ESOLTECH Co., Ltd.",
     "footerLinks": {
       "terms": "Terms of Service",
@@ -178,6 +185,26 @@
       "about": "About Us"
     },
     "copyright": "© 2026 ESOLTECH. All rights reserved."
+  },
+  "history": {
+    "id": "history",
+    "title": "Company History",
+    "subtitle": "A track record of steady growth and innovation since 1999",
+    "items": [
+      { "year": "2025", "description": "Volvo Group Korea Infrastructure Service / Technology Service / Clark Comprehensive IT Management Service" },
+      { "year": "2017", "description": "Baan Korea Official Reseller" },
+      { "year": "2016", "description": "Divestiture of Miracle Systems Co., Ltd." },
+      { "year": "2015", "description": "Ki-wan Park appointed as CEO" },
+      { "year": "2011", "description": "Solutions Division spun off as Jarim Solution Co., Ltd." },
+      { "year": "2010", "description": "Subsidiary Miracle Systems Co., Ltd. established" },
+      { "year": "2009", "description": "Sang-su Bae appointed as CEO / Cisco Express UC Specialization Partner" },
+      { "year": "2007", "description": "Volvo Group Korea Technology Service" },
+      { "year": "2006", "description": "Solutions Division established" },
+      { "year": "2005", "description": "SI Division established" },
+      { "year": "2004", "description": "Cisco Premier Reseller certification" },
+      { "year": "2000", "description": "Volvo Construction Equipment Korea Infrastructure Service" },
+      { "year": "1999", "description": "Company founded / Tae-su Yoon appointed as CEO / Clark Comprehensive IT Management Service" }
+    ]
   },
   "partners": {
     "title": "We work with leading client companies."

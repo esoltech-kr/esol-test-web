@@ -7,7 +7,7 @@ export default function Hero() {
   const t = useMessages().hero;
 
   return (
-    <section className="py-16 md:py-24">
+    <section id={t.id} className="py-16 md:py-24">
       <div className="container flex flex-col items-center text-center">
         <div className="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs font-semibold text-muted-foreground transition-colors">
           {t.badge}
