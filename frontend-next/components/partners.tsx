@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useMessages } from "@/lib/locale-context";
 
 const partners = [
   { name: "VOLVO", logo: "/images/logo_volvo.png" },
@@ -6,11 +9,13 @@ const partners = [
 ];
 
 export default function Partners() {
+  const t = useMessages().partners;
+
   return (
     <section className="border-y border-border bg-muted py-12">
       <div className="container">
         <p className="mb-8 text-center text-lg font-medium text-muted-foreground">
-          우리는 주요고객사들과 함께 일합니다.
+          {t.title}
         </p>
         <div className="flex items-center justify-center gap-3 flex-wrap">
           {/* {partners.map((partner) => (

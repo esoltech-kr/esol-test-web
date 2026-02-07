@@ -1,23 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
-
-const navLinks = [
-  { label: "서비스", href: "#how-it-works" },
-  { label: "특징", href: "#features" },
-  { label: "요금제", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
-];
+import { Menu, X, Globe } from "lucide-react";
+import { useMessages, useLocale } from "@/lib/locale-context";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const t = useMessages().header;
+  const { locale, toggleLocale } = useLocale();
+
+  const navLinks = [
+    { label: t.nav.services, href: "#how-it-works" },
+    { label: t.nav.features, href: "#features" },
+    { label: t.nav.pricing, href: "#pricing" },
+    { label: t.nav.faq, href: "#faq" },
+  ];
 
   return (
     <header className="sticky top-0 z-50 h-16 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-full items-center justify-between">
         <a href="#" className="text-xl font-bold text-foreground">
-          (주)이솔테크
+          {t.logo}
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -32,19 +35,27 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden items-center gap-2 md:flex">
+          <button
+            onClick={toggleLocale}
+            className="inline-flex h-10 items-center gap-1.5 rounded-md border border-border px-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            aria-label="Switch language"
+          >
+            <Globe className="h-4 w-4" />
+            {locale === "ko" ? "EN" : "KO"}
+          </button>
           <a
             href="#cta"
             className="inline-flex h-10 items-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            상담 신청
+            {t.cta}
           </a>
         </div>
 
         <button
           className="inline-flex items-center justify-center rounded-md p-2 text-muted-foreground hover:text-foreground md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="메뉴 열기"
+          aria-label={t.menuAriaLabel}
         >
           {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -63,12 +74,19 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <button
+              onClick={() => { toggleLocale(); setMobileOpen(false); }}
+              className="inline-flex h-10 items-center justify-center gap-1.5 rounded-md border border-border text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              <Globe className="h-4 w-4" />
+              {locale === "ko" ? "EN" : "KO"}
+            </button>
             <a
               href="#cta"
               className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
               onClick={() => setMobileOpen(false)}
             >
-              상담 신청
+              {t.cta}
             </a>
           </nav>
         </div>

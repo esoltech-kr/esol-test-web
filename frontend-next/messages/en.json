@@ -1,0 +1,189 @@
+{
+  "header": {
+    "logo": "ESOLTECH Co., Ltd.",
+    "nav": {
+      "services": "Services",
+      "features": "Features",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "cta": "Get a Quote",
+    "menuAriaLabel": "Open menu"
+  },
+  "hero": {
+    "badge": "IT Solution Partner #1",
+    "titlePrefix": "Delivering",
+    "titleHighlight": "Optimal IT Solutions",
+    "titleSuffix": "for Your Business",
+    "description": "ESOLTECH Co., Ltd. was established in 2000 with a capital of 300 million KRW, annual revenue of 2 billion KRW, and a team of 30 employees. Located in Jungangdong, Seongsan-gu, Changwon-si, Gyeongnam, we specialize in IT outsourcing, ERP, MES, PLM system development and operations, and smart factory solutions.",
+    "offices": {
+      "hqLabel": "HQ",
+      "hqAddress": "Reges Tower #1018, 85 Jungang-daero, Seongsan-gu, Changwon-si, Gyeongnam",
+      "branchLabel": "Branch Office",
+      "branchAddress": "SK Technopark Meca Bldg. #1101, 50 Anam-ro, Seongsan-gu, Changwon-si, Gyeongnam"
+    },
+    "subDescription": "From web development to AI, ESOLTECH supports your digital transformation with cutting-edge technology. We have over 10 years of experience and 200+ completed projects.",
+    "ctaPrimary": "Get Free Consultation",
+    "ctaSecondary": "Explore Services",
+    "stats": {
+      "projects": "Projects Completed",
+      "projectsValue": "200+",
+      "satisfaction": "Client Satisfaction",
+      "satisfactionValue": "99%",
+      "experience": "Years Experience",
+      "experienceValue": "25+"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Start your project in 3 simple steps",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Consultation & Planning",
+        "description": "We analyze your business requirements and propose the optimal technology solutions. Together we define the project scope and timeline."
+      },
+      {
+        "step": "02",
+        "title": "Development & Testing",
+        "description": "Using agile methodology for rapid development and thorough QA to deliver stable, reliable results."
+      },
+      {
+        "step": "03",
+        "title": "Deployment & Operations",
+        "description": "We safely deploy your service and provide continuous monitoring and maintenance support."
+      }
+    ]
+  },
+  "features": {
+    "title": "Core Capabilities",
+    "subtitle": "Delivering the best results with diverse tech stacks and extensive experience",
+    "items": [
+      {
+        "icon": "Globe",
+        "title": "Web Development",
+        "description": "We develop high-performance responsive web applications using cutting-edge frameworks like React and Next.js."
+      },
+      {
+        "icon": "Smartphone",
+        "title": "Mobile Apps",
+        "description": "We develop iOS/Android native and cross-platform apps to deliver the optimal mobile experience."
+      },
+      {
+        "icon": "Cloud",
+        "title": "Cloud Infrastructure",
+        "description": "We design and build reliable, scalable cloud infrastructure based on AWS, GCP, and Azure."
+      },
+      {
+        "icon": "Brain",
+        "title": "AI & Machine Learning",
+        "description": "We drive innovation by integrating AI technologies including data analysis, NLP, and computer vision into your business."
+      },
+      {
+        "icon": "Shield",
+        "title": "Security Solutions",
+        "description": "We provide comprehensive security solutions including vulnerability analysis, security audits, and intrusion detection systems."
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Data Analytics",
+        "description": "We build dashboards, BI tools, and real-time analytics systems to support data-driven decision making."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Service Plans",
+    "subtitle": "Choose the right plan for your project scale",
+    "popularBadge": "Popular",
+    "cta": "Get Started",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "From $2,500",
+        "description": "Ideal for small projects",
+        "popular": false,
+        "features": [
+          "Responsive website development",
+          "Basic SEO optimization",
+          "3 months free maintenance",
+          "Email support",
+          "Basic analytics dashboard"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "From $6,500",
+        "description": "The perfect plan for growing businesses",
+        "popular": true,
+        "features": [
+          "Web + mobile app development",
+          "Advanced SEO & performance optimization",
+          "6 months free maintenance",
+          "Priority technical support",
+          "CI/CD pipeline setup",
+          "Cloud infrastructure setup"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom Quote",
+        "description": "Tailored solutions for large-scale projects",
+        "popular": false,
+        "features": [
+          "Full-stack custom development",
+          "AI/ML integrated solutions",
+          "12 months free maintenance",
+          "24/7 dedicated support",
+          "Security audit & consulting",
+          "Dedicated project manager"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Have questions? Feel free to reach out anytime",
+    "items": [
+      {
+        "question": "How long does project development take?",
+        "answer": "It depends on the scale and complexity, but generally small websites take 4-6 weeks, medium apps take 2-4 months, and large systems take 4-8 months. We'll provide an accurate timeline after consultation."
+      },
+      {
+        "question": "How is maintenance handled?",
+        "answer": "All plans include a free maintenance period. After that, we offer monthly maintenance contracts covering bug fixes, feature updates, and server monitoring."
+      },
+      {
+        "question": "What tech stack do you use?",
+        "answer": "For frontend we primarily use React, Next.js, and Vue.js. For backend, Node.js, Python, and Java. We leverage AWS and GCP for cloud, and recommend the optimal tech stack based on project characteristics."
+      },
+      {
+        "question": "Can you integrate with existing systems?",
+        "answer": "Yes, we support API integration with existing ERP, CRM, and legacy systems. Our extensive experience with data migration and system integration ensures seamless connectivity."
+      },
+      {
+        "question": "How can I track project progress?",
+        "answer": "We provide weekly sprint reviews and monthly progress reports. We also share real-time updates through collaboration tools like Jira and Slack, with a dedicated PM assigned to your project."
+      }
+    ]
+  },
+  "ctaFooter": {
+    "title": "Start Your Project Today",
+    "description": "Get a free consultation for the optimal IT solution. Our expert consultants will guide you with a technology strategy aligned to your business goals.",
+    "ctaPrimary": "Request Free Consultation",
+    "ctaPhone": "055-266-6924",
+    "footerCompany": "ESOLTECH Co., Ltd.",
+    "footerLinks": {
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "about": "About Us"
+    },
+    "copyright": "© 2026 ESOLTECH. All rights reserved."
+  },
+  "partners": {
+    "title": "We work with leading client companies."
+  },
+  "metadata": {
+    "title": "ESOLTECH Co., Ltd. | IT Solutions & Digital Transformation",
+    "description": "Web development, mobile apps, cloud, and AI solutions. Your optimal IT partner for business growth — ESOLTECH."
+  }
+}
